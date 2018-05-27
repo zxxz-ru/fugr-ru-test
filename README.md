@@ -4,11 +4,15 @@
 
 Project is Test Assignment from
 [fugr-ru/frontend-javascript-test](https://github.com/fugr-ru/frontend-javascript-test). 
+
 Done:
+
 - General Setup for work.
 - Structure of Project.
 - Some work on fetch.
+
 TODO:
+
 - Add jest for testing.
 - Cache.
 - React compoents with styled-components.
