@@ -6,7 +6,7 @@
     "requireParenthesesAroundIIFE": true,
     "maximumLineLength": 120,
     "validateLineBreaks": "LF",
-    "validateIndentation": 2,
+    "validateIndentation": false,
     "disallowTrailingComma": false,
     "disallowUnusedParams": true,
 

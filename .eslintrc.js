@@ -30,7 +30,13 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
-    'class-methods-use-this': ['error', {'exceptMethods':[
+    'padded-blocks': 'off',
+    'arrow-body-style': ['error', 'as-needed'],
+    'no-plusplus': [2, {
+    'allowForLoopAfterthoughts': true,
+    }],
+    'comma-dangle':[1, 'always-multiline'],
+    'class-methods-use-this': [0, {'exceptMethods':[
     'render',
       ]},
     ],

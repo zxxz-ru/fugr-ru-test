@@ -1,15 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Fetcher from './util/fetcher';
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props);
+          this.line = '';
+  }
+
+print(arg) {
+  this.line += arg;
+  this.line += '<br/>';
+document.getElementById('test').innerHTML = this.line;
+}
+
+componentWillMount() {
+  Fetcher.getData();
+}
   render() {
     return (
-    <div><h1>Hello from first Component</h1>
-    <hr/>
-    <p>Some other very important text.</p>
+      <div>
       </div>
     );
   }
 }
-export default Main;
 ReactDOM.render(<Main/>, document.getElementById('app'));
+export default Main;
